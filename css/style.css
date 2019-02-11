@@ -1,13 +1,12 @@
 @import "reset.css";
 @import "../fonts/Helvetica Neue.css";
 
-.main-background {
-    background: url("../img/main-background.jpg") no-repeat;
-    font-family: "Helvetica Neue Medium", Tahoma, sans-serif;
-    font-size: 14px;
-}
+/*HEADER*/
+
 .header-background {
     background: #074c89;
+    font-family: "Helvetica Neue Medium", Tahoma, sans-serif;
+    font-size: 14px;
 }
 
 .top-menu {
@@ -100,5 +99,195 @@
     text-decoration: underline;
 }
 
+
+
+/*MAIN-MENU*/
+
+.main-background {
+    background: url("../img/main-background.jpg") no-repeat;
+    background-size: 100%;
+    font-family: "Helvetica Neue Medium", Tahoma, sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 40%;
+
+    margin: 10% auto;
+    background: #000;
+    background: rgba(0,0,0, 0.63);
+}
+
+.cadastre-se {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 26px;
+    color: #fff;
+    line-height: 70px;
+    border-bottom: 2px solid #cad0c2;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.facebook{
+    margin: 30px auto;
+}
+
+.facebook input {
+    padding: 8px;
+}
+
+.OU {
+    text-align: center;
+}
+
+.OU span{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 5px;
+    color: #999999;
+}
+
+.double-line {
+    display: inline-block;
+    width: 23%;
+    vertical-align: middle;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #000;
+}
+
+.registration {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-info {
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.input-info input {
+
+    padding: 7px 15px;
+    margin: 8px;
+}
+
+.input-info > input {
+    border: 1px solid transparent;
+
+    background: #0e0e0e;
+    background: -moz-linear-gradient(top, #0e0e0e 0%, #121212 100%);
+    background: -webkit-linear-gradient(top, #0e0e0e 0%, #121212 100%);
+    background: -o-linear-gradient(top, #0e0e0e 0%, #121212 100%);
+    background: -ms-linear-gradient(top, #0e0e0e 0%, #121212 100%);
+    background: linear-gradient(to bottom, #0e0e0e 0%, #121212 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#121212', GradientType=0 );
+
+    box-shadow: 0 1px 0 0 rgba(75,75,75,1),
+                inset 2px 0 20px 0 rgba(29,26,22,0.2);
+}
+
+.input-info > input:focus {
+    color: #fffcfc;
+    background: #1b5288;
+    outline: none;
+    border-bottom: 1px solid #689bcc;
+    box-shadow: 0 0 20px 5px rgba(47,123,197,0.77),
+                inset 0 0 2px 0 rgba(0,0,0,0.2);
+}
+
+/*PLACEHOLDER COLOR*/
+
+.input-info > input::-webkit-input-placeholder {color: #ccc;}
+.input-info > input::-moz-placeholder          {color: #ccc;}
+.input-info > input:-moz-placeholder           {color: #ccc;}
+.input-info > input:-ms-input-placeholder      {color: #ccc;}
+
+
+.input-info > input:focus::-webkit-input-placeholder {color: #fffcfc;}
+.input-info > input:focus::-moz-placeholder          {color: #fffcfc;}
+.input-info > input:focus:-moz-placeholder           {color: #fffcfc;}
+.input-info > input:focus:-ms-input-placeholder      {color: #fffcfc;}
+
+/*------------------*/
+
+.checkbox {
+    margin: 10px 0;
+    display: flex;
+}
+
+
+.checkbox input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.checkbox span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: #ccc;
+    font-size: 14px;
+}
+
+
+
+.submit input {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #499cd6;
+    border-radius: 2px;
+
+
+
+    font-weight: bold;
+    color: #fff;
+
+    background: #65c6e6;
+    background: -moz-linear-gradient(top, #65c6e6 0%, #499ed4 51%, #2e78c2 100%);
+    background: -webkit-linear-gradient(top, #65c6e6 0%, #499ed4 51%, #2e78c2 100%);
+    background: -o-linear-gradient(top, #65c6e6 0%, #499ed4 51%, #2e78c2 100%);
+    background: -ms-linear-gradient(top, #65c6e6 0%, #499ed4 51%, #2e78c2 100%);
+    background: linear-gradient(to bottom, #65c6e6 0%, #499ed4 51%, #2e78c2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65c6e6', endColorstr='#2e78c2', GradientType=0 );
+}
+
+.submit span {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+
+    color: #ccc;
+    font-size: 12px;
+}
 
 

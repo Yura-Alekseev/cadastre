@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,39 +9,70 @@
     <title>Cadastre-se</title>
 </head>
 <body>
+<header>
+    <div class="header-background">
+        <nav class="top-menu">
+            <a>Meu YouBike</a>
+            <a>Vender</a>
+            <a>Forum</a>
+            <a>Contato</a>
+            <a>Ajuda</a>
+            <div class="blue-line"></div>
+            <a class="ofertas trans-border"><i class="flag"></i>Ofertas</a>
+            <span class="trans-border">Ola! <a>Entrar</a> ou <a>Cadastre-se</a></span>
+        </nav>
+    </div>
+</header>
+
 <div class="main-background">
-    <header>
-        <div class="header-background">
-            <nav class="top-menu">
-                <a>Meu YouBike</a>
-                <a>Vender</a>
-                <a>Forum</a>
-                <a>Contato</a>
-                <a>Ajuda</a>
-                <div class="blue-line"></div>
-                <a class="ofertas trans-border"><i class="flag"></i>Ofertas</a>
-                <span class="trans-border">Ola!
-                    <a>Entrar</a>
-                    ou
-                    <a>Cadastre-se</a>
-                </span>
-            </nav>
+    <div class="wrapper">
+        <div class="cadastre-se">
+            <span>Cadastre-se</span>
         </div>
 
+        <div class="main-menu">
+            <form action="#" class="facebook">
+                <input type="submit" value="Log in with Facebook">
+            </form>
 
-    </header>
+            <div class="OU">
+                <div class="double-line"></div>
+                <span>OU</span>
+                <div class="double-line"></div>
+            </div>
 
+            <form action="#" method="post">
+                <div class="registration">
+                    <div class="input-info">
+                        <input type="text" name="First Name" placeholder="First Name">
 
+                        <input type="text" name="Last Name" placeholder="Last Name">
 
+                        <input type="email" name="Email Address" placeholder="Email Address">
 
+                        <input type="password" name="Choose Password" placeholder="Choose Password">
 
+                        <input type="password" name="Password Confirm" placeholder="Password Confirm">
 
+                        <div class="checkbox">
+                            <input type="checkbox" name="Send me Youbike updates and tips"
+                                   id="Send me Youbike updates and tips">
+                            <span>Send me Youbike updates and tips</span>
 
+                        </div>
+                    </div>
 
+                    <div class="submit">
+                        <input type="submit" value="Create my Account">
 
+                        <span>By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.</span>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
 </div>
-
-
 
 
 </body>

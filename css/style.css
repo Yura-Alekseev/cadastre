@@ -42,7 +42,7 @@ header {
 }
 
 .top-menu .ofertas {
-    width: 11.5%;
+    width: 12.5%;
     color: #fff;
 }
 
@@ -73,7 +73,7 @@ header {
 
 .top-menu span {
     color: #fff;
-    width: 14%;
+    width: 15%;
 }
 
 .trans-border {
@@ -84,15 +84,22 @@ header {
 
 
 .top-menu span:hover {
+    cursor: pointer;
     border-left: 1px solid #57a2dd;
     border-bottom: 1px solid #57a2dd;
     border-right: 1px solid #57a2dd;
 
-    background: linear-gradient(to bottom, #51b0dc 0%, #2e79c4 100%);
+    background: #51b0dc;
+    background: -moz-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
+    background: -webkit-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
+    background: -o-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
+    background: -ms-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
+    background: linear-gradient(to bottom, #51b0dc 0%, #2e7ac4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51b0dc', endColorstr='#2e7ac4', GradientType=0 );
 }
 
 .top-menu span:hover > a{
-    text-decoration: underline;
+    text-decoration: underline #9ac2e4;
     background: none;
 }
 
@@ -101,8 +108,14 @@ header {
     border-bottom: 1px solid #57a2dd;
     border-right: 1px solid #57a2dd;
 
-    background: linear-gradient(to bottom, #51b0dc 0%, #2e79c4 100%);
-    text-decoration: underline;
+    background: #51b0dc;
+    background: -moz-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
+    background: -webkit-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
+    background: -o-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
+    background: -ms-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
+    background: linear-gradient(to bottom, #51b0dc 0%, #2e7ac4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51b0dc', endColorstr='#2e7ac4', GradientType=0 );
+    text-decoration: underline #9ac2e4;
 }
 
 
@@ -149,7 +162,7 @@ header {
     flex-direction: column;
 }
 
-
+/*FACEBOOK*/
 
 .facebook{
     display: flex;
@@ -157,57 +170,13 @@ header {
     justify-content: center;
     margin: 30px auto;
 
-    border-radius: 5px;
-}
-
-.facebook-logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-
+    outline: 1px solid transparent;
     border: 1px solid transparent;
     border-top: 1px solid #7c89b6;
-    border-right: 1px solid #1d3c73;
-
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
-
-    background: #3c5697;
-    background: -moz-linear-gradient(top, #3c5697 0%, #2e4377 100%);
-    background: -webkit-linear-gradient(top, #3c5697 0%, #2e4377 100%);
-    background: -o-linear-gradient(top, #3c5697 0%, #2e4377 100%);
-    background: -ms-linear-gradient(top, #3c5697 0%, #2e4377 100%);
-    background: linear-gradient(to bottom, #3c5697 0%, #2e4377 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c5697', endColorstr='#2e4377', GradientType=0 )
-}
-
-.logo {
-    padding: 7px 10px;
-    content: url("../img/facebook-logo.png");
-
-}
-
-.btn-facebook {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 8px 20px 8px 25px;
-
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
-
-
-    font-size: 15px;
-
-    color: #f7ffff;
-
-    border: 1px solid transparent;
-    border-top: 1px solid #7c89b6;
-    border-left: 1px solid #4b68ac;
-
-
-
 
     background: #3c5697;
     background: -moz-linear-gradient(top, #3c5697 0%, #2e4377 100%);
@@ -218,6 +187,35 @@ header {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c5697', endColorstr='#2e4377', GradientType=0 );
 }
 
+.facebook:focus {
+    outline: none;
+    box-shadow: 0 0 20px 5px rgba(47,123,197,0.77),
+    inset 0 0 2px 0 rgba(0,0,0,0.2);
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 7px 12px;
+    content: url("../img/facebook-logo.png");
+
+    border-right: 1px solid #1d3c73;
+}
+
+.btn-facebook {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px 20px 8px 25px;
+
+    font-size: 15px;
+    color: #f7ffff;
+
+    border-left: 1px solid #4b68ac;
+}
+
 
 .btn-facebook span {
     font-weight: bold;
@@ -226,9 +224,7 @@ header {
 .quotes {
     display: flex;
     flex-direction: row;
-
     text-align: center;
-
 
     font-size: 15px;
 
@@ -238,6 +234,8 @@ header {
 
     color: #f7ffff;
 }
+
+/*--------------*/
 
 
 .separator {
@@ -335,7 +333,11 @@ header {
     font-size: 14px;
 }
 
-
+.btn-create:focus {
+    outline: none;
+    box-shadow: 0 0 20px 5px rgba(47,123,197,0.77),
+    inset 0 0 2px 0 rgba(0,0,0,0.2);
+}
 
 .btn-create {
     display: flex;

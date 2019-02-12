@@ -18,7 +18,7 @@
             <a>Contato</a>
             <a>Ajuda</a>
             <div class="blue-line"></div>
-            <a class="ofertas trans-border"><i class="flag"></i>Ofertas</a>
+            <a class="ofertas trans-border"><i class="flag"></i>Minhas Ofertas</a>
             <span class="trans-border">Ola! <a>Entrar</a> ou <a>Cadastre-se</a></span>
         </nav>
     </div>
@@ -31,11 +31,14 @@
         </div>
 
         <div class="main-menu">
-            <form action="#" class="facebook">
-                <input type="submit" value="Log in with Facebook">
+            <form action="#" class="facebook" method="post">
+                <button type="button" class="facebook-logo"><i class="logo"></i></button>
+                <button class="btn-facebook" type="button" name="Log in with Facebook"><span>Log In</span>&nbsp;with&nbsp;<span> Facebook</span><span
+                        class="quotes">&rsaquo;</span></button>
+                <span class="quotes"></span>
             </form>
 
-            <div class="OU">
+            <div class="separator">
                 <div class="double-line"></div>
                 <span>OU</span>
                 <div class="double-line"></div>
@@ -55,17 +58,17 @@
                         <input type="password" name="Password Confirm" placeholder="Password Confirm">
 
                         <div class="checkbox">
-                            <input type="checkbox" name="Send me Youbike updates and tips"
+                            <input class="btn-checkbox" type="checkbox" name="Send me Youbike updates and tips"
                                    id="Send me Youbike updates and tips">
-                            <span>Send me Youbike updates and tips</span>
+                            <span class="checkbox-text">Send me Youbike updates and tips</span>
 
                         </div>
                     </div>
 
                     <div class="submit">
-                        <input type="submit" value="Create my Account">
+                        <button class="btn-create" type="submit" name="Create my Account">Create my Account</button>
 
-                        <span>By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.</span>
+                        <span class="terms">By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.</span>
                     </div>
                 </div>
             </form>

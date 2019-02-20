@@ -9,6 +9,8 @@ header {
 }
 
 
+
+
 .header-background {
     background: #074c89;
     font-family: "Helvetica Neue Medium", Tahoma, sans-serif;
@@ -25,6 +27,8 @@ header {
 
     line-height: 40px;
     color: #60b5ed;
+
+
 }
 
 .top-menu a {
@@ -124,7 +128,10 @@ header {
 
 .main-background {
     background: url("../img/main-background.jpg") no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    height: 100%;
+
+
     font-family: "Helvetica Neue Medium", Tahoma, sans-serif;
     font-size: 14px;
     display: flex;
@@ -169,6 +176,9 @@ header {
     flex-direction: row;
     justify-content: center;
     margin: 30px auto;
+    width: 53%;
+
+    font-size: 17px;
 
     outline: 1px solid transparent;
     border: 1px solid transparent;
@@ -187,6 +197,10 @@ header {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c5697', endColorstr='#2e4377', GradientType=0 );
 }
 
+.facebook:hover {
+    cursor: pointer;
+}
+
 .facebook:focus {
     outline: none;
     box-shadow: 0 0 20px 5px rgba(47,123,197,0.77),
@@ -194,43 +208,40 @@ header {
 }
 
 .logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: inline-block;
 
-    padding: 7px 12px;
+
+
+    padding: 7px 8px;
     content: url("../img/facebook-logo.png");
-
+    width: 20px;
     border-right: 1px solid #1d3c73;
 }
 
 .btn-facebook {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 8px 20px 8px 25px;
+    display: inline-block;
 
-    font-size: 15px;
+    padding: 8px 10px 8px 20px;
+
     color: #f7ffff;
+    font-weight: bold;
 
     border-left: 1px solid #4b68ac;
 }
 
-
 .btn-facebook span {
-    font-weight: bold;
+    display: inline-block;
+
 }
 
+.btn-facebook span > span:first-child {
+    font-weight: normal;
+}
 .quotes {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+    display: inline-block;
 
-    font-size: 15px;
 
-    font-weight: bold;
-
-    padding-left: 15px;
+    padding-left: 10px;
 
     color: #f7ffff;
 }
@@ -331,6 +342,10 @@ header {
 
     color: #ccc;
     font-size: 14px;
+}
+
+.btn-create:hover {
+    cursor: pointer;
 }
 
 .btn-create:focus {

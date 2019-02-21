@@ -8,13 +8,359 @@ header {
     top: 0;
 }
 
+@media only screen and (max-width: 1440px) {
 
+    header {
+        font-size: 15px;
+    }
+
+    .top-menu {
+        line-height: 40px;
+    }
+
+    .flag {
+        padding-left: 15px;
+        margin-right: 10px;
+    }
+
+    .cadastre-se {
+        font-size: 26px;
+        line-height: 70px;
+        border-bottom: 2px solid #cad0c2;
+    }
+
+    .facebook {
+        margin: 30px auto;
+        font-size: 17px;
+    }
+
+    .logo {
+        padding: 7px 13px 7px 7px;
+    }
+
+    .btn-facebook {
+        padding: 8px 10px 8px 20px;
+    }
+
+    .quotes {
+        padding-left: 10px;
+    }
+
+    .double-line {
+        width: 23%;
+    }
+
+    .separator span {
+        font-size: 14px;
+    }
+
+    .input-info > input::placeholder {
+        font-size: 13px;
+    }
+
+    .input-info input {
+        padding: 10px 15px;
+        margin: 8px;
+    }
+
+    .input-info {
+        margin: 10px auto;
+    }
+
+    .registration {
+        margin-top: 10px;
+    }
+
+    .checkbox-text {
+        font-size: 14px;
+    }
+
+    .btn-create{
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .terms {
+        margin: 20px auto;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    header {
+        font-size: 14px;
+    }
+
+    .top-menu {
+        line-height: 37px;
+    }
+
+    .flag {
+        padding-left: 13px;
+        margin-right: 9px;
+    }
+
+    .cadastre-se {
+        font-size: 24px;
+        line-height: 64px;
+        border-bottom: 2px solid #cad0c2;
+    }
+
+    .facebook {
+        margin: 27px auto;
+        font-size: 15px;
+    }
+
+    .logo {
+        padding: 7px 12px 7px 1px;
+    }
+
+    .btn-facebook {
+        padding: 8px 8px 8px 18px;
+    }
+
+    .quotes {
+        padding-left: 11px;
+    }
+
+    .double-line {
+        width: 23%;
+    }
+
+    .separator span {
+        font-size: 13px;
+    }
+
+    .input-info > input::placeholder {
+        font-size: 12px;
+    }
+
+    .input-info input {
+        padding: 9px 14px;
+        margin: 7px;
+    }
+
+    .input-info {
+        margin: 9px auto;
+    }
+
+    .registration {
+        margin-top: 8px;
+    }
+
+    .checkbox-text {
+        font-size: 13px;
+    }
+
+    .btn-create{
+        padding: 9px 9px;
+        font-size: 12px;
+    }
+
+    .terms {
+        margin: 19px auto;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1152px) {
+    header {
+        font-size: 12px;
+    }
+
+    .top-menu {
+        line-height: 32px;
+    }
+
+    .flag {
+        padding-left: 11px;
+        margin-right: 8px;
+    }
+
+    .cadastre-se {
+        line-height: 56px;
+        font-size: 21px;
+        border-bottom: 2px solid #cad0c2;
+    }
+
+    .facebook {
+        margin: 24px auto 23px;
+        font-size: 13px;
+    }
+
+    .logo {
+        padding: 6px 11px 6px 2px;
+    }
+
+    .btn-facebook {
+        padding: 7px 8px 7px 16px;
+    }
+
+    .quotes {
+        padding-left: 10px;
+    }
+
+    .double-line {
+        width: 22.5%;
+    }
+
+    .separator span {
+        font-size: 11px;
+    }
+
+    .input-info > input::placeholder {
+        font-size: 10px;
+    }
+
+    .input-info input {
+        padding: 6px 12px;
+        margin: 6px;
+    }
+
+    .input-info {
+        margin: 7px auto;
+    }
+
+    .registration {
+        margin-top: 9px;
+    }
+
+    .checkbox-text {
+        font-size: 11px;
+    }
+
+    .btn-create{
+        padding: 9px 10px;
+        font-size: 10px;
+    }
+
+    .terms {
+        margin: 18px auto;
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    header {
+        font-size: 10px;
+    }
+
+    .top-menu {
+        line-height: 26px;
+    }
+
+    .flag {
+        padding-left: 10px;
+        margin-right: 7px;
+    }
+
+    .cadastre-se {
+        line-height: 47px;
+        font-size: 17px;
+        border-bottom: 1px solid #cad0c2;
+    }
+
+    .facebook {
+        margin: 21px auto 23px;
+        font-size: 11px;
+    }
+
+    .logo {
+
+        padding: 4px 10px 4px 5px;
+    }
+
+    .btn-facebook {
+        padding: 5px 6px 5px 8px;
+    }
+
+    .quotes {
+        padding-left: 5px;
+    }
+
+    .double-line {
+        width: 22.5%;
+    }
+
+    .separator span {
+        font-size: 11px;
+    }
+
+    .input-info > input::placeholder {
+        font-size: 10px;
+    }
+
+    .input-info input {
+        padding: 6px 12px;
+        margin: 6px;
+    }
+
+    .input-info {
+        margin: 7px auto;
+    }
+
+    .registration {
+        margin-top: 9px;
+    }
+
+    .checkbox-text {
+        font-size: 11px;
+    }
+
+    .btn-create{
+        padding: 9px 10px;
+        font-size: 10px;
+    }
+
+    .terms {
+        margin: 18px auto;
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 864px) {
+
+    header {
+        font-size: 9px;
+    }
+
+    .top-menu {
+        line-height: 23px;
+    }
+
+    .flag {
+        padding-left: 8px;
+        margin-right: 7px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        font-size: 8px;
+    }
+
+    .top-menu {
+        line-height: 20px;
+    }
+
+    .flag {
+        padding-left: 7px;
+        margin-right: 6px;
+    }
+
+
+}
 
 
 .header-background {
     background: #074c89;
     font-family: "Helvetica Neue Medium", Tahoma, sans-serif;
-    font-size: 14px;
+
 }
 
 .top-menu {
@@ -25,7 +371,7 @@ header {
 
     margin-right: 2%;
 
-    line-height: 40px;
+
     color: #60b5ed;
 
 
@@ -39,7 +385,7 @@ header {
     width: 9%;
 }
 
-.top-menu a:hover{
+.top-menu a:hover {
     cursor: pointer;
     background: #4eabda;
     color: #fff;
@@ -70,14 +416,14 @@ header {
 
 .flag {
     display: flex;
-    padding-left: 15px;
-    margin-right: 10px;
+
     content: url("../img/flag.png");
+    width: 12.5%;
 }
 
 .top-menu span {
     color: #fff;
-    width: 15%;
+    width: 16%;
 }
 
 .trans-border {
@@ -99,10 +445,10 @@ header {
     background: -o-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
     background: -ms-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
     background: linear-gradient(to bottom, #51b0dc 0%, #2e7ac4 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51b0dc', endColorstr='#2e7ac4', GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#51b0dc', endColorstr='#2e7ac4', GradientType=0);
 }
 
-.top-menu span:hover > a{
+.top-menu span:hover > a {
     text-decoration: underline #9ac2e4;
     background: none;
 }
@@ -118,10 +464,9 @@ header {
     background: -o-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
     background: -ms-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
     background: linear-gradient(to bottom, #51b0dc 0%, #2e7ac4 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51b0dc', endColorstr='#2e7ac4', GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#51b0dc', endColorstr='#2e7ac4', GradientType=0);
     text-decoration: underline #9ac2e4;
 }
-
 
 
 /*MAIN-MENU*/
@@ -150,17 +495,15 @@ header {
 
     margin: 10% auto;
     background: #000;
-    background: rgba(0,0,0, 0.63);
+    background: rgba(0, 0, 0, 0.63);
 }
 
 .cadastre-se {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 26px;
     color: #fff;
-    line-height: 70px;
-    border-bottom: 2px solid #cad0c2;
+
 }
 
 .main-menu {
@@ -171,14 +514,13 @@ header {
 
 /*FACEBOOK*/
 
-.facebook{
+.facebook {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 30px auto;
+
     width: 53%;
 
-    font-size: 17px;
 
     outline: 1px solid transparent;
     border: 1px solid transparent;
@@ -194,7 +536,7 @@ header {
     background: -o-linear-gradient(top, #3c5697 0%, #2e4377 100%);
     background: -ms-linear-gradient(top, #3c5697 0%, #2e4377 100%);
     background: linear-gradient(to bottom, #3c5697 0%, #2e4377 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c5697', endColorstr='#2e4377', GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3c5697', endColorstr='#2e4377', GradientType=0);
 }
 
 .facebook:hover {
@@ -203,25 +545,22 @@ header {
 
 .facebook:focus {
     outline: none;
-    box-shadow: 0 0 20px 5px rgba(47,123,197,0.77),
-    inset 0 0 2px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 5px rgba(47, 123, 197, 0.77),
+    inset 0 0 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 .logo {
     display: inline-block;
 
 
-
-    padding: 7px 8px;
     content: url("../img/facebook-logo.png");
-    width: 20px;
+    width: 4.2%;
     border-right: 1px solid #1d3c73;
 }
 
 .btn-facebook {
     display: inline-block;
 
-    padding: 8px 10px 8px 20px;
 
     color: #f7ffff;
     font-weight: bold;
@@ -237,12 +576,9 @@ header {
 .btn-facebook span > span:first-child {
     font-weight: normal;
 }
+
 .quotes {
     display: inline-block;
-
-
-    padding-left: 10px;
-
     color: #f7ffff;
 }
 
@@ -253,7 +589,7 @@ header {
     text-align: center;
 }
 
-.separator span{
+.separator span {
     text-align: center;
     display: inline-block;
     vertical-align: middle;
@@ -263,14 +599,12 @@ header {
 
 .double-line {
     display: inline-block;
-    width: 23%;
     vertical-align: middle;
     border-top: 1px solid #666;
     border-bottom: 1px solid #000;
 }
 
 .registration {
-    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -282,14 +616,10 @@ header {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin: 10px auto;
+
 }
 
-.input-info input {
 
-    padding: 10px 15px;
-    margin: 8px;
-}
 
 .input-info > input {
     border: 1px solid transparent;
@@ -300,10 +630,10 @@ header {
     background: -o-linear-gradient(top, #0e0e0e 0%, #121212 100%);
     background: -ms-linear-gradient(top, #0e0e0e 0%, #121212 100%);
     background: linear-gradient(to bottom, #0e0e0e 0%, #121212 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#121212', GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e0e0e', endColorstr='#121212', GradientType=0);
 
-    box-shadow: 0 1px 0 0 rgba(75,75,75,1),
-                inset 2px 0 20px 0 rgba(29,26,22,0.2);
+    box-shadow: 0 1px 0 0 rgba(75, 75, 75, 1),
+    inset 2px 0 20px 0 rgba(29, 26, 22, 0.2);
 }
 
 .input-info > input:focus {
@@ -311,15 +641,20 @@ header {
     background: #1b5288;
     outline: none;
     border-bottom: 1px solid #689bcc;
-    box-shadow: 0 0 20px 5px rgba(47,123,197,0.77),
-                inset 0 0 2px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 5px rgba(47, 123, 197, 0.77),
+    inset 0 0 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 /*PLACEHOLDER COLOR*/
 
-.input-info > input::placeholder {color: #ccc;}
+.input-info > input::placeholder {
+    color: #ccc;
 
-.input-info > input:focus::placeholder {color: #fffcfc;}
+}
+
+.input-info > input:focus::placeholder {
+    color: #fffcfc;
+}
 
 /*------------------*/
 
@@ -341,7 +676,6 @@ header {
     justify-content: center;
 
     color: #ccc;
-    font-size: 14px;
 }
 
 .btn-create:hover {
@@ -350,17 +684,15 @@ header {
 
 .btn-create:focus {
     outline: none;
-    box-shadow: 0 0 20px 5px rgba(47,123,197,0.77),
-    inset 0 0 2px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 5px rgba(47, 123, 197, 0.77),
+    inset 0 0 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 .btn-create {
     display: flex;
     margin: 0 auto;
-    padding: 10px;
     border: 1px solid #499cd6;
     border-radius: 2px;
-
 
 
     font-weight: bold;
@@ -372,11 +704,10 @@ header {
     background: -o-linear-gradient(top, #65c6e6 0%, #499ed4 51%, #2e78c2 100%);
     background: -ms-linear-gradient(top, #65c6e6 0%, #499ed4 51%, #2e78c2 100%);
     background: linear-gradient(to bottom, #65c6e6 0%, #499ed4 51%, #2e78c2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65c6e6', endColorstr='#2e78c2', GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#65c6e6', endColorstr='#2e78c2', GradientType=0);
 }
 
 .terms {
-    margin: 20px auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -384,7 +715,6 @@ header {
     width: 60%;
 
     color: #ccc;
-    font-size: 12px;
 }
 
 

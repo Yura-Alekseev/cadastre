@@ -1,0 +1,1111 @@
+@import "reset.css";
+@import "../fonts/Helvetica Neue.css";
+
+/*HEADER*/
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+@media only screen and (max-width: 1440px) {
+
+    header {
+        font-size: 15px;
+    }
+
+    .top-menu {
+        line-height: 40px;
+    }
+
+    .trans-border {
+        border-left: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+        border-right: 1px solid transparent;
+    }
+
+    .top-menu span:hover {
+        border-left: 1px solid #57a2dd;
+        border-bottom: 1px solid #57a2dd;
+        border-right: 1px solid #57a2dd;
+    }
+
+    .top-menu .ofertas:hover {
+        border-left: 1px solid #57a2dd;
+        border-bottom: 1px solid #57a2dd;
+        border-right: 1px solid #57a2dd;
+    }
+
+    .blue-line {
+        margin-top: 2px;
+        margin-bottom: 3px;
+        width: 2px;
+    }
+
+    .flag {
+        padding-left: 15px;
+        margin-right: 10px;
+    }
+
+    .cadastre-se {
+        font-size: 26px;
+        line-height: 70px;
+        border-bottom: 2px solid #cad0c2;
+    }
+
+    .facebook {
+        outline: 1px solid transparent;
+
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+
+        border: 1px solid transparent;
+        border-top: 1px solid #7c89b6;
+
+        margin: 30px auto;
+
+        font-size: 17px;
+    }
+
+    .logo {
+        border-right: 1px solid #1d3c73;
+        padding: 7px 13px 7px 7px;
+    }
+
+    .btn-facebook {
+        border-left: 1px solid #4b68ac;
+        padding: 8px 10px 8px 20px;
+    }
+
+    .quotes {
+        padding-left: 10px;
+    }
+
+    .double-line {
+        border-top: 1px solid #666;
+        border-bottom: 1px solid #000;
+        width: 23%;
+    }
+
+    .separator span {
+        margin: 0 5px;
+        font-size: 14px;
+    }
+
+    .input-info > input::placeholder {
+        font-size: 13px;
+    }
+
+    .input-info > input{
+        border: 1px solid transparent;
+    }
+
+    .input-info input {
+        padding: 10px 15px;
+        margin: 8px;
+    }
+
+    .input-info {
+        margin: 10px auto;
+    }
+
+    .input-info > input:focus {
+        border-bottom: 1px solid #689bcc;
+    }
+
+    .registration {
+        margin-top: 10px;
+    }
+
+    .checkbox {
+        margin: 10px 0;
+    }
+
+    .checkbox-text {
+        font-size: 14px;
+    }
+
+    .btn-create{
+        border: 1px solid #499cd6;
+        border-radius: 2px;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .terms {
+        margin: 20px auto;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    header {
+        font-size: 13.7px;
+    }
+
+    .top-menu {
+        line-height: 37px;
+    }
+
+    .trans-border {
+        border-left: 0.9px solid transparent;
+        border-bottom: 0.9px solid transparent;
+        border-right: 0.9px solid transparent;
+    }
+
+    .top-menu span:hover {
+        border-left: 0.9px solid #57a2dd;
+        border-bottom: 0.9px solid #57a2dd;
+        border-right: 0.9px solid #57a2dd;
+    }
+
+    .top-menu .ofertas:hover {
+        border-left: 1px solid #57a2dd;
+        border-bottom: 1px solid #57a2dd;
+        border-right: 1px solid #57a2dd;
+    }
+
+    .blue-line {
+        margin-top: 2px;
+        margin-bottom: 3px;
+        width: 2px;
+    }
+
+
+    .flag {
+        padding-left: 13.5px;
+        margin-right: 9px;
+    }
+
+    .cadastre-se {
+        font-size: 23.7px;
+        line-height: 64px;
+        border-bottom: 2px solid #cad0c2;
+    }
+
+    .facebook {
+        outline: 1px solid transparent;
+
+        border-bottom-left-radius: 4.5px;
+        border-top-left-radius: 4.5px;
+        border-bottom-right-radius: 4.5px;
+        border-top-right-radius: 4.5px;
+
+        border: 1px solid transparent;
+        border-top: 1px solid #7c89b6;
+        margin: 27px auto;
+        font-size: 15.4px;
+    }
+
+    .logo {
+        border-right: 1px solid #1d3c73;
+        padding: 6px 11.6px 6px 0.3px;
+    }
+
+    .btn-facebook {
+        border-left: 1px solid #4b68ac;
+        padding: 7.2px 3px 7.2px 18px;
+    }
+
+    .quotes {
+        padding-left: 9.3px;
+    }
+
+    .double-line {
+        border-top: 0.9px solid #666;
+        border-bottom: 0.9px solid #000;
+        width: 22.8%;
+    }
+
+    .separator span {
+        margin: 0 4.4px;
+        font-size: 12.6px;
+    }
+
+    .input-info > input::placeholder {
+        font-size: 11.8px;
+    }
+
+    .input-info > input{
+        border: 1px solid transparent;
+    }
+
+    .input-info input {
+        padding: 8.2px 13.8px;
+        margin: 7.6px;
+    }
+
+    .input-info > input:focus {
+        border-bottom: 1px solid #689bcc;
+    }
+
+    .input-info {
+        margin: 9px auto;
+    }
+
+    .registration {
+        margin-top: 9px;
+    }
+
+    .checkbox {
+        margin: 9px 0;
+    }
+
+    .checkbox-text {
+        font-size: 13.05px;
+    }
+
+    .btn-create{
+        border: 1px solid #499cd6;
+        border-radius: 2px;
+        padding: 9px 8.5px;
+        font-size: 11.9px;
+    }
+
+    .terms {
+        margin: 19px auto;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1152px) {
+    header {
+        font-size: 12.05px;
+    }
+
+    .top-menu {
+        line-height: 32px;
+    }
+
+    .trans-border {
+        border-left: 0.8px solid transparent;
+        border-bottom: 0.8px solid transparent;
+        border-right: 0.8px solid transparent;
+    }
+
+    .top-menu span:hover {
+        border-left: 0.8px solid #57a2dd;
+        border-bottom: 0.8px solid #57a2dd;
+        border-right: 0.8px solid #57a2dd;
+    }
+
+    .top-menu .ofertas:hover {
+        border-left: 1px solid #57a2dd;
+        border-bottom: 1px solid #57a2dd;
+        border-right: 1px solid #57a2dd;
+    }
+
+    .blue-line {
+        margin-top: 1.5px;
+        margin-bottom: 2.5px;
+        width: 2px;
+    }
+
+    .flag {
+        padding-left: 12px;
+        margin-right: 8px;
+    }
+
+    .cadastre-se {
+        line-height: 56px;
+        font-size: 21px;
+        border-bottom: 1.5px solid #cad0c2;
+    }
+
+    .facebook {
+        outline: 1px solid transparent;
+
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 4px;
+
+        border: 1px solid transparent;
+        border-top: 1px solid #7c89b6;
+        margin: 24px auto 23px;
+        font-size: 13.6px;
+    }
+
+    .logo {
+        border-right: 1px solid #1d3c73;
+        padding: 5px 9.5px 5px 5.5px;
+    }
+
+    .btn-facebook {
+        border-left: 1px solid #4b68ac;
+        padding: 6px 8px 6px 16px;
+    }
+
+    .quotes {
+        padding-left: 8px;
+    }
+
+    .double-line {
+        border-top: 0.8px solid #666;
+        border-bottom: 0.8px solid #000;
+        width: 22.85%;
+    }
+
+    .separator span {
+        margin: 0 3.8px;
+        font-size: 11px;
+    }
+
+    .input-info > input::placeholder {
+        font-size: 10px;
+    }
+
+    .input-info > input{
+        border: 1px solid transparent;
+    }
+
+    .input-info input {
+        padding: 5.7px 12px;
+        margin: 6px;
+    }
+
+    .input-info > input:focus {
+        border-bottom: 1px solid #689bcc;
+    }
+
+    .input-info {
+        margin: 7px auto;
+    }
+
+    .registration {
+        margin-top: 9px;
+    }
+
+    .checkbox {
+        margin: 8px 0;
+    }
+
+    .checkbox-text {
+        font-size: 11px;
+    }
+
+    .btn-create{
+        border: 1px solid #499cd6;
+        border-radius: 2px;
+        padding: 8.5px 8px;
+        font-size: 10.5px;
+    }
+
+    .terms {
+        margin: 17px auto;
+        font-size: 8.6px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    header {
+        font-size: 10.1px;
+    }
+
+    .top-menu {
+        line-height: 27px;
+    }
+
+    .trans-border {
+        border-left: 0.5px solid transparent;
+        border-bottom: 0.5px solid transparent;
+        border-right: 0.5px solid transparent;
+    }
+
+    .top-menu span:hover {
+        border-left: 0.5px solid #57a2dd;
+        border-bottom: 0.5px solid #57a2dd;
+        border-right: 0.5px solid #57a2dd;
+    }
+
+    .top-menu .ofertas:hover {
+        border-left: 0.5px solid #57a2dd;
+        border-bottom: 0.5px solid #57a2dd;
+        border-right: 0.5px solid #57a2dd;
+    }
+
+    .blue-line {
+        margin-top: 1.5px;
+        margin-bottom: 2px;
+        width: 1.5px;
+    }
+
+    .flag {
+        padding-left: 9px;
+        margin-right: 7.2px;
+    }
+
+    .cadastre-se {
+        line-height: 47.5px;
+        font-size: 17.5px;
+        border-bottom: 1px solid #cad0c2;
+    }
+
+    .facebook {
+        outline: 1px solid transparent;
+
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+
+        border: 0.5px solid transparent;
+        border-top: 0.5px solid #7c89b6;
+        margin: 20px auto 17.5px;
+        font-size: 11.2px;
+    }
+
+    .logo {
+        border-right: 0.5px solid #1d3c73;
+        padding: 4.5px 9px 4.5px 1px;
+    }
+
+    .btn-facebook {
+        border-left: 0.5px solid #4b68ac;
+        padding: 5px 4px 5px 14px;
+    }
+
+    .quotes {
+        padding-left: 7.5px;
+    }
+
+    .double-line {
+        border-top: 0.7px solid #666;
+        border-bottom: 0.7px solid #000;
+        width: 22.5%;
+    }
+
+    .separator span {
+        margin: 0 2.8px;
+        font-size: 9px;
+    }
+
+    .input-info > input::placeholder {
+        font-size: 8.5px;
+    }
+
+    .input-info > input{
+        border: 0.5px solid transparent;
+    }
+
+    .input-info input {
+        padding: 4.3px 10px;
+        margin: 5.05px;
+    }
+
+    .input-info > input:focus {
+        border-bottom: 0.5px solid #689bcc;
+    }
+
+    .input-info {
+        margin: 6px auto;
+    }
+
+    .registration {
+        margin-top: 6.5px;
+    }
+
+    .checkbox {
+        margin: 7px 0;
+    }
+
+    .checkbox-text {
+        font-size: 9.1px;
+    }
+
+    .btn-create{
+        border: 0.5px solid #499cd6;
+        border-radius: 1.5px;
+        padding: 7px 7px;
+        font-size: 8.5px;
+    }
+
+    .terms {
+        margin: 16px auto;
+        font-size: 7.3px;
+    }
+}
+
+@media only screen and (max-width: 864px) {
+
+    header {
+        font-size: 8.7px;
+    }
+
+    .top-menu {
+        line-height: 23px;
+    }
+
+    .flag {
+        padding-left: 8px;
+        margin-right: 6px;
+    }
+
+    .trans-border {
+        border-left: 0.5px solid transparent;
+        border-bottom: 0.5px solid transparent;
+        border-right: 0.5px solid transparent;
+    }
+
+    .top-menu span:hover {
+        border-left: 0.5px solid #57a2dd;
+        border-bottom: 0.5px solid #57a2dd;
+        border-right: 0.5px solid #57a2dd;
+    }
+
+    .top-menu .ofertas:hover {
+        border-left: 0.5px solid #57a2dd;
+        border-bottom: 0.5px solid #57a2dd;
+        border-right: 0.5px solid #57a2dd;
+    }
+
+    .blue-line {
+        margin-top: 1px;
+        margin-bottom: 1.5px;
+        width: 1px;
+    }
+
+    .cadastre-se {
+        line-height: 40px;
+        font-size: 15px;
+        border-bottom: 1px solid #cad0c2;
+    }
+
+    .facebook {
+        outline: 1px solid transparent;
+
+        border-bottom-left-radius: 2.5px;
+        border-top-left-radius: 2.5px;
+        border-bottom-right-radius: 2.5px;
+        border-top-right-radius: 2.5px;
+
+        border: 0.5px solid transparent;
+        border-top: 0.5px solid #7c89b6;
+        margin: 17.5px auto 13.8px;
+        font-size: 9.6px;
+    }
+
+    .logo {
+        border-right: 0.5px solid #1d3c73;
+        padding: 3.5px 7.5px 3.5px 2px;
+    }
+
+    .btn-facebook {
+        border-left: 0.5px solid #4b68ac;
+        padding: 4.2px 4px 4.2px 12px;
+    }
+
+    .quotes {
+        padding-left: 6px;
+    }
+
+    .double-line {
+        border-top: 0.6px solid #666;
+        border-bottom: 0.6px solid #000;
+        width: 22.5%;
+    }
+
+    .separator span {
+        margin: 0 1.5px;
+        font-size: 8px;
+    }
+
+    .input-info > input::placeholder {
+        font-size: 7.5px;
+    }
+
+    .input-info > input{
+        border: 0.5px solid transparent;
+    }
+
+    .input-info input {
+        padding: 2.5px 8.2px;
+        margin: 4px;
+    }
+
+    .input-info > input:focus {
+        border-bottom: 0.5px solid #689bcc;
+    }
+
+    .input-info {
+        margin: 5px auto;
+    }
+
+    .registration {
+        margin-top: 4px;
+    }
+
+    .checkbox {
+        margin: 6px 0;
+    }
+
+    .checkbox-text {
+        font-size: 8.1px;
+    }
+
+    .btn-create{
+        border: 0.5px solid #499cd6;
+        border-radius: 1.5px;
+        padding: 6px 6px;
+        font-size: 7.5px;
+    }
+
+    .terms {
+        margin: 14px auto;
+        font-size: 6.2px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        font-size: 7.6px;
+    }
+
+    .top-menu {
+        line-height: 20px;
+    }
+
+    .flag {
+        padding-left: 6.8px;
+        margin-right: 5.6px;
+    }
+
+    .trans-border {
+        border-left: 0.5px solid transparent;
+        border-bottom: 0.5px solid transparent;
+        border-right: 0.5px solid transparent;
+    }
+
+    .top-menu span:hover {
+        border-left: 0.5px solid #57a2dd;
+        border-bottom: 0.5px solid #57a2dd;
+        border-right: 0.5px solid #57a2dd;
+    }
+
+    .top-menu .ofertas:hover {
+        border-left: 0.5px solid #57a2dd;
+        border-bottom: 0.5px solid #57a2dd;
+        border-right: 0.5px solid #57a2dd;
+    }
+
+    .blue-line {
+        margin-top: 1px;
+        margin-bottom: 1.5px;
+        width: 1px;
+    }
+
+    .cadastre-se {
+        line-height: 35px;
+        font-size: 13.2px;
+        border-bottom: 1px solid #cad0c2;
+    }
+
+    .facebook {
+        outline: 1px solid transparent;
+
+        border-bottom-left-radius: 2px;
+        border-top-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-top-right-radius: 2px;
+
+        border: 0.5px solid transparent;
+        border-top: 0.5px solid #7c89b6;
+        margin: 15px auto 11.3px;
+        font-size: 8.4px;
+    }
+
+    .logo {
+        border-right: 0.5px solid #1d3c73;
+        padding: 3.2px 7.3px 2px 1px;
+    }
+
+    .btn-facebook {
+        border-left: 0.5px solid #4b68ac;
+        padding: 3.5px 4px 3.5px 10px;
+    }
+
+    .quotes {
+        padding-left: 5px;
+    }
+
+    .double-line {
+        border-top: 0.6px solid #666;
+        border-bottom: 0.6px solid #000;
+        width: 22.5%;
+    }
+
+    .separator span {
+        margin: 0 0.8px;
+        font-size: 7px;
+    }
+
+    .input-info > input::placeholder {
+        font-size: 6.5px;
+    }
+
+    .input-info > input{
+        border: 0.5px solid transparent;
+    }
+
+    .input-info input {
+        padding: 0 7.1px 2px;
+        margin: 4px;
+    }
+
+    .input-info > input:focus {
+        border-bottom: 0.5px solid #689bcc;
+    }
+
+    .input-info {
+        margin: 4px auto;
+    }
+
+    .registration {
+        margin-top: 2px;
+    }
+
+    .checkbox {
+        margin: 6px 0;
+    }
+
+    .checkbox-text {
+        font-size: 7.2px;
+    }
+
+    .btn-create{
+        border: 0.5px solid #499cd6;
+        border-radius: 1.5px;
+        padding: 5px 5px;
+        font-size: 6.6px;
+    }
+
+    .terms {
+        margin: 12px auto;
+        font-size: 5.5px;
+    }
+}
+
+
+.header-background {
+    background: #074c89;
+    font-family: "Helvetica Neue Medium", Tahoma, sans-serif;
+
+}
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: flex-end;
+    margin-right: 2%;
+    color: #60b5ed;
+}
+
+.top-menu a {
+    width: 6%;
+}
+
+.top-menu a:first-child {
+    width: 9%;
+}
+
+.top-menu a:hover {
+    cursor: pointer;
+    background: #4eabda;
+    color: #fff;
+}
+
+.top-menu .ofertas {
+    width: 12.5%;
+    color: #fff;
+}
+
+.ofertas {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blue-line {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: #56a2dc;
+}
+
+.flag {
+    display: flex;
+
+    content: url("../img/flag.png");
+    width: 12.5%;
+}
+
+.top-menu span {
+    color: #fff;
+    width: 16%;
+}
+
+.top-menu span:hover {
+    cursor: pointer;
+
+
+    background: #51b0dc;
+    background: -moz-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
+    background: -webkit-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
+    background: -o-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
+    background: -ms-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
+    background: linear-gradient(to bottom, #51b0dc 0%, #2e7ac4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#51b0dc', endColorstr='#2e7ac4', GradientType=0);
+}
+
+.top-menu span:hover > a {
+    text-decoration: underline #9ac2e4;
+    background: none;
+}
+
+.top-menu .ofertas:hover {
+    background: #51b0dc;
+    background: -moz-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
+    background: -webkit-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
+    background: -o-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
+    background: -ms-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
+    background: linear-gradient(to bottom, #51b0dc 0%, #2e7ac4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#51b0dc', endColorstr='#2e7ac4', GradientType=0);
+    text-decoration: underline #9ac2e4;
+}
+
+
+/*MAIN-MENU*/
+
+.main-background {
+    background: url("../img/main-background.jpg") no-repeat;
+    background-size: cover;
+    height: 100%;
+
+
+    font-family: "Helvetica Neue Medium", Tahoma, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 40%;
+
+    margin: 10% auto;
+    background: #000;
+    background: rgba(0, 0, 0, 0.63);
+}
+
+.cadastre-se {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*FACEBOOK*/
+
+.facebook {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 53%;
+
+    background: #3c5697;
+    background: -moz-linear-gradient(top, #3c5697 0%, #2e4377 100%);
+    background: -webkit-linear-gradient(top, #3c5697 0%, #2e4377 100%);
+    background: -o-linear-gradient(top, #3c5697 0%, #2e4377 100%);
+    background: -ms-linear-gradient(top, #3c5697 0%, #2e4377 100%);
+    background: linear-gradient(to bottom, #3c5697 0%, #2e4377 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3c5697', endColorstr='#2e4377', GradientType=0);
+}
+
+.facebook:hover {
+    cursor: pointer;
+}
+
+.facebook:focus {
+    outline: none;
+    box-shadow: 0 0 20px 5px rgba(47, 123, 197, 0.77),
+    inset 0 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    display: inline-block;
+
+
+    content: url("../img/facebook-logo.png");
+    width: 4.2%;
+}
+
+.btn-facebook {
+    display: inline-block;
+
+
+    color: #f7ffff;
+    font-weight: bold;
+
+
+}
+
+.btn-facebook span {
+    display: inline-block;
+
+}
+
+.btn-facebook span > span:first-child {
+    font-weight: normal;
+}
+
+.quotes {
+    display: inline-block;
+    color: #f7ffff;
+}
+
+/*--------------*/
+
+
+.separator {
+    text-align: center;
+}
+
+.separator span {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    color: #999999;
+}
+
+.double-line {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-info {
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+.input-info > input {
+
+    background: #0e0e0e;
+    background: -moz-linear-gradient(top, #0e0e0e 0%, #121212 100%);
+    background: -webkit-linear-gradient(top, #0e0e0e 0%, #121212 100%);
+    background: -o-linear-gradient(top, #0e0e0e 0%, #121212 100%);
+    background: -ms-linear-gradient(top, #0e0e0e 0%, #121212 100%);
+    background: linear-gradient(to bottom, #0e0e0e 0%, #121212 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e0e0e', endColorstr='#121212', GradientType=0);
+
+    box-shadow: 0 1px 0 0 rgba(75, 75, 75, 1),
+    inset 2px 0 20px 0 rgba(29, 26, 22, 0.2);
+}
+
+.input-info > input:focus {
+    color: #fffcfc;
+    background: #1b5288;
+    outline: none;
+    box-shadow: 0 0 20px 5px rgba(47, 123, 197, 0.77),
+    inset 0 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*PLACEHOLDER COLOR*/
+
+.input-info > input::placeholder {
+    color: #ccc;
+
+}
+
+.input-info > input:focus::placeholder {
+    color: #fffcfc;
+}
+
+/*------------------*/
+
+.checkbox {
+    display: flex;
+}
+
+
+.btn-checkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.checkbox-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: #ccc;
+}
+
+.btn-create:hover {
+    cursor: pointer;
+}
+
+.btn-create:focus {
+    outline: none;
+    box-shadow: 0 0 20px 5px rgba(47, 123, 197, 0.77),
+    inset 0 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-create {
+    display: flex;
+    margin: 0 auto;
+
+    font-weight: bold;
+    color: #fff;
+
+    background: #65c6e6;
+    background: -moz-linear-gradient(top, #65c6e6 0%, #499ed4 51%, #2e78c2 100%);
+    background: -webkit-linear-gradient(top, #65c6e6 0%, #499ed4 51%, #2e78c2 100%);
+    background: -o-linear-gradient(top, #65c6e6 0%, #499ed4 51%, #2e78c2 100%);
+    background: -ms-linear-gradient(top, #65c6e6 0%, #499ed4 51%, #2e78c2 100%);
+    background: linear-gradient(to bottom, #65c6e6 0%, #499ed4 51%, #2e78c2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#65c6e6', endColorstr='#2e78c2', GradientType=0);
+}
+
+.terms {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    color: #ccc;
+}
+
+

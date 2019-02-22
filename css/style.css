@@ -18,6 +18,30 @@ header {
         line-height: 40px;
     }
 
+    .trans-border {
+        border-left: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+        border-right: 1px solid transparent;
+    }
+
+    .top-menu span:hover {
+        border-left: 1px solid #57a2dd;
+        border-bottom: 1px solid #57a2dd;
+        border-right: 1px solid #57a2dd;
+    }
+
+    .top-menu .ofertas:hover {
+        border-left: 1px solid #57a2dd;
+        border-bottom: 1px solid #57a2dd;
+        border-right: 1px solid #57a2dd;
+    }
+
+    .blue-line {
+        margin-top: 2px;
+        margin-bottom: 3px;
+        width: 2px;
+    }
+
     .flag {
         padding-left: 15px;
         margin-right: 10px;
@@ -30,15 +54,28 @@ header {
     }
 
     .facebook {
+        outline: 1px solid transparent;
+
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+
+        border: 1px solid transparent;
+        border-top: 1px solid #7c89b6;
+
         margin: 30px auto;
+
         font-size: 17px;
     }
 
     .logo {
+        border-right: 1px solid #1d3c73;
         padding: 7px 13px 7px 7px;
     }
 
     .btn-facebook {
+        border-left: 1px solid #4b68ac;
         padding: 8px 10px 8px 20px;
     }
 
@@ -47,15 +84,22 @@ header {
     }
 
     .double-line {
+        border-top: 1px solid #666;
+        border-bottom: 1px solid #000;
         width: 23%;
     }
 
     .separator span {
+        margin: 0 5px;
         font-size: 14px;
     }
 
     .input-info > input::placeholder {
         font-size: 13px;
+    }
+
+    .input-info > input{
+        border: 1px solid transparent;
     }
 
     .input-info input {
@@ -67,8 +111,16 @@ header {
         margin: 10px auto;
     }
 
+    .input-info > input:focus {
+        border-bottom: 1px solid #689bcc;
+    }
+
     .registration {
         margin-top: 10px;
+    }
+
+    .checkbox {
+        margin: 10px 0;
     }
 
     .checkbox-text {
@@ -76,6 +128,8 @@ header {
     }
 
     .btn-create{
+        border: 1px solid #499cd6;
+        border-radius: 2px;
         padding: 10px;
         font-size: 13px;
     }
@@ -88,56 +142,103 @@ header {
 
 @media only screen and (max-width: 1280px) {
     header {
-        font-size: 14px;
+        font-size: 13.7px;
     }
 
     .top-menu {
         line-height: 37px;
     }
 
+    .trans-border {
+        border-left: 0.9px solid transparent;
+        border-bottom: 0.9px solid transparent;
+        border-right: 0.9px solid transparent;
+    }
+
+    .top-menu span:hover {
+        border-left: 0.9px solid #57a2dd;
+        border-bottom: 0.9px solid #57a2dd;
+        border-right: 0.9px solid #57a2dd;
+    }
+
+    .top-menu .ofertas:hover {
+        border-left: 1px solid #57a2dd;
+        border-bottom: 1px solid #57a2dd;
+        border-right: 1px solid #57a2dd;
+    }
+
+    .blue-line {
+        margin-top: 2px;
+        margin-bottom: 3px;
+        width: 2px;
+    }
+
+
     .flag {
-        padding-left: 13px;
+        padding-left: 13.5px;
         margin-right: 9px;
     }
 
     .cadastre-se {
-        font-size: 24px;
+        font-size: 23.7px;
         line-height: 64px;
         border-bottom: 2px solid #cad0c2;
     }
 
     .facebook {
+        outline: 1px solid transparent;
+
+        border-bottom-left-radius: 4.5px;
+        border-top-left-radius: 4.5px;
+        border-bottom-right-radius: 4.5px;
+        border-top-right-radius: 4.5px;
+
+        border: 1px solid transparent;
+        border-top: 1px solid #7c89b6;
         margin: 27px auto;
-        font-size: 15px;
+        font-size: 15.4px;
     }
 
     .logo {
-        padding: 7px 12px 7px 1px;
+        border-right: 1px solid #1d3c73;
+        padding: 6px 11.6px 6px 0.3px;
     }
 
     .btn-facebook {
-        padding: 8px 8px 8px 18px;
+        border-left: 1px solid #4b68ac;
+        padding: 7.2px 3px 7.2px 18px;
     }
 
     .quotes {
-        padding-left: 11px;
+        padding-left: 9.3px;
     }
 
     .double-line {
-        width: 23%;
+        border-top: 0.9px solid #666;
+        border-bottom: 0.9px solid #000;
+        width: 22.8%;
     }
 
     .separator span {
-        font-size: 13px;
+        margin: 0 4.4px;
+        font-size: 12.6px;
     }
 
     .input-info > input::placeholder {
-        font-size: 12px;
+        font-size: 11.8px;
+    }
+
+    .input-info > input{
+        border: 1px solid transparent;
     }
 
     .input-info input {
-        padding: 9px 14px;
-        margin: 7px;
+        padding: 8.2px 13.8px;
+        margin: 7.6px;
+    }
+
+    .input-info > input:focus {
+        border-bottom: 1px solid #689bcc;
     }
 
     .input-info {
@@ -145,16 +246,22 @@ header {
     }
 
     .registration {
-        margin-top: 8px;
+        margin-top: 9px;
+    }
+
+    .checkbox {
+        margin: 9px 0;
     }
 
     .checkbox-text {
-        font-size: 13px;
+        font-size: 13.05px;
     }
 
     .btn-create{
-        padding: 9px 9px;
-        font-size: 12px;
+        border: 1px solid #499cd6;
+        border-radius: 2px;
+        padding: 9px 8.5px;
+        font-size: 11.9px;
     }
 
     .terms {
@@ -165,46 +272,84 @@ header {
 
 @media only screen and (max-width: 1152px) {
     header {
-        font-size: 12px;
+        font-size: 12.05px;
     }
 
     .top-menu {
         line-height: 32px;
     }
 
+    .trans-border {
+        border-left: 0.8px solid transparent;
+        border-bottom: 0.8px solid transparent;
+        border-right: 0.8px solid transparent;
+    }
+
+    .top-menu span:hover {
+        border-left: 0.8px solid #57a2dd;
+        border-bottom: 0.8px solid #57a2dd;
+        border-right: 0.8px solid #57a2dd;
+    }
+
+    .top-menu .ofertas:hover {
+        border-left: 1px solid #57a2dd;
+        border-bottom: 1px solid #57a2dd;
+        border-right: 1px solid #57a2dd;
+    }
+
+    .blue-line {
+        margin-top: 1.5px;
+        margin-bottom: 2.5px;
+        width: 2px;
+    }
+
     .flag {
-        padding-left: 11px;
+        padding-left: 12px;
         margin-right: 8px;
     }
 
     .cadastre-se {
         line-height: 56px;
         font-size: 21px;
-        border-bottom: 2px solid #cad0c2;
+        border-bottom: 1.5px solid #cad0c2;
     }
 
     .facebook {
+        outline: 1px solid transparent;
+
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 4px;
+
+        border: 1px solid transparent;
+        border-top: 1px solid #7c89b6;
         margin: 24px auto 23px;
-        font-size: 13px;
+        font-size: 13.6px;
     }
 
     .logo {
-        padding: 6px 11px 6px 2px;
+        border-right: 1px solid #1d3c73;
+        padding: 5px 9.5px 5px 5.5px;
     }
 
     .btn-facebook {
-        padding: 7px 8px 7px 16px;
+        border-left: 1px solid #4b68ac;
+        padding: 6px 8px 6px 16px;
     }
 
     .quotes {
-        padding-left: 10px;
+        padding-left: 8px;
     }
 
     .double-line {
-        width: 22.5%;
+        border-top: 0.8px solid #666;
+        border-bottom: 0.8px solid #000;
+        width: 22.85%;
     }
 
     .separator span {
+        margin: 0 3.8px;
         font-size: 11px;
     }
 
@@ -212,9 +357,17 @@ header {
         font-size: 10px;
     }
 
+    .input-info > input{
+        border: 1px solid transparent;
+    }
+
     .input-info input {
-        padding: 6px 12px;
+        padding: 5.7px 12px;
         margin: 6px;
+    }
+
+    .input-info > input:focus {
+        border-bottom: 1px solid #689bcc;
     }
 
     .input-info {
@@ -225,103 +378,160 @@ header {
         margin-top: 9px;
     }
 
+    .checkbox {
+        margin: 8px 0;
+    }
+
     .checkbox-text {
         font-size: 11px;
     }
 
     .btn-create{
-        padding: 9px 10px;
-        font-size: 10px;
+        border: 1px solid #499cd6;
+        border-radius: 2px;
+        padding: 8.5px 8px;
+        font-size: 10.5px;
     }
 
     .terms {
-        margin: 18px auto;
-        font-size: 9px;
+        margin: 17px auto;
+        font-size: 8.6px;
     }
 }
 
 @media only screen and (max-width: 1024px) {
     header {
-        font-size: 10px;
+        font-size: 10.1px;
     }
 
     .top-menu {
-        line-height: 26px;
+        line-height: 27px;
+    }
+
+    .trans-border {
+        border-left: 0.5px solid transparent;
+        border-bottom: 0.5px solid transparent;
+        border-right: 0.5px solid transparent;
+    }
+
+    .top-menu span:hover {
+        border-left: 0.5px solid #57a2dd;
+        border-bottom: 0.5px solid #57a2dd;
+        border-right: 0.5px solid #57a2dd;
+    }
+
+    .top-menu .ofertas:hover {
+        border-left: 0.5px solid #57a2dd;
+        border-bottom: 0.5px solid #57a2dd;
+        border-right: 0.5px solid #57a2dd;
+    }
+
+    .blue-line {
+        margin-top: 1.5px;
+        margin-bottom: 2px;
+        width: 1.5px;
     }
 
     .flag {
-        padding-left: 10px;
-        margin-right: 7px;
+        padding-left: 9px;
+        margin-right: 7.2px;
     }
 
     .cadastre-se {
-        line-height: 47px;
-        font-size: 17px;
+        line-height: 47.5px;
+        font-size: 17.5px;
         border-bottom: 1px solid #cad0c2;
     }
 
     .facebook {
-        margin: 21px auto 23px;
-        font-size: 11px;
+        outline: 1px solid transparent;
+
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+
+        border: 0.5px solid transparent;
+        border-top: 0.5px solid #7c89b6;
+        margin: 20px auto 17.5px;
+        font-size: 11.2px;
     }
 
     .logo {
-
-        padding: 4px 10px 4px 5px;
+        border-right: 0.5px solid #1d3c73;
+        padding: 4.5px 9px 4.5px 1px;
     }
 
     .btn-facebook {
-        padding: 5px 6px 5px 8px;
+        border-left: 0.5px solid #4b68ac;
+        padding: 5px 4px 5px 14px;
     }
 
     .quotes {
-        padding-left: 5px;
+        padding-left: 7.5px;
     }
 
     .double-line {
+        border-top: 0.7px solid #666;
+        border-bottom: 0.7px solid #000;
         width: 22.5%;
     }
 
     .separator span {
-        font-size: 11px;
+        margin: 0 2.8px;
+        font-size: 9px;
     }
 
     .input-info > input::placeholder {
-        font-size: 10px;
+        font-size: 8.5px;
+    }
+
+    .input-info > input{
+        border: 0.5px solid transparent;
     }
 
     .input-info input {
-        padding: 6px 12px;
-        margin: 6px;
+        padding: 4.3px 10px;
+        margin: 5.05px;
+    }
+
+    .input-info > input:focus {
+        border-bottom: 0.5px solid #689bcc;
     }
 
     .input-info {
-        margin: 7px auto;
+        margin: 6px auto;
     }
 
     .registration {
-        margin-top: 9px;
+        margin-top: 6.5px;
+    }
+
+    .checkbox {
+        margin: 7px 0;
     }
 
     .checkbox-text {
-        font-size: 11px;
+        font-size: 9.1px;
     }
 
     .btn-create{
-        padding: 9px 10px;
-        font-size: 10px;
+        border: 0.5px solid #499cd6;
+        border-radius: 1.5px;
+        padding: 7px 7px;
+        font-size: 8.5px;
     }
 
     .terms {
-        margin: 18px auto;
-        font-size: 9px;
+        margin: 16px auto;
+        font-size: 7.3px;
     }
 }
 
 @media only screen and (max-width: 864px) {
 
     header {
-        font-size: 9px;
+        font-size: 8.7px;
     }
 
     .top-menu {
@@ -330,18 +540,128 @@ header {
 
     .flag {
         padding-left: 8px;
-        margin-right: 7px;
+        margin-right: 6px;
     }
 
+    .trans-border {
+        border-left: 0.5px solid transparent;
+        border-bottom: 0.5px solid transparent;
+        border-right: 0.5px solid transparent;
+    }
 
+    .top-menu span:hover {
+        border-left: 0.5px solid #57a2dd;
+        border-bottom: 0.5px solid #57a2dd;
+        border-right: 0.5px solid #57a2dd;
+    }
 
+    .top-menu .ofertas:hover {
+        border-left: 0.5px solid #57a2dd;
+        border-bottom: 0.5px solid #57a2dd;
+        border-right: 0.5px solid #57a2dd;
+    }
 
+    .blue-line {
+        margin-top: 1px;
+        margin-bottom: 1.5px;
+        width: 1px;
+    }
+
+    .cadastre-se {
+        line-height: 40px;
+        font-size: 15px;
+        border-bottom: 1px solid #cad0c2;
+    }
+
+    .facebook {
+        outline: 1px solid transparent;
+
+        border-bottom-left-radius: 2.5px;
+        border-top-left-radius: 2.5px;
+        border-bottom-right-radius: 2.5px;
+        border-top-right-radius: 2.5px;
+
+        border: 0.5px solid transparent;
+        border-top: 0.5px solid #7c89b6;
+        margin: 17.5px auto 13.8px;
+        font-size: 9.6px;
+    }
+
+    .logo {
+        border-right: 0.5px solid #1d3c73;
+        padding: 3.5px 7.5px 3.5px 2px;
+    }
+
+    .btn-facebook {
+        border-left: 0.5px solid #4b68ac;
+        padding: 4.2px 4px 4.2px 12px;
+    }
+
+    .quotes {
+        padding-left: 6px;
+    }
+
+    .double-line {
+        border-top: 0.6px solid #666;
+        border-bottom: 0.6px solid #000;
+        width: 22.5%;
+    }
+
+    .separator span {
+        margin: 0 1.5px;
+        font-size: 8px;
+    }
+
+    .input-info > input::placeholder {
+        font-size: 7.5px;
+    }
+
+    .input-info > input{
+        border: 0.5px solid transparent;
+    }
+
+    .input-info input {
+        padding: 2.5px 8.2px;
+        margin: 4px;
+    }
+
+    .input-info > input:focus {
+        border-bottom: 0.5px solid #689bcc;
+    }
+
+    .input-info {
+        margin: 5px auto;
+    }
+
+    .registration {
+        margin-top: 4px;
+    }
+
+    .checkbox {
+        margin: 6px 0;
+    }
+
+    .checkbox-text {
+        font-size: 8.1px;
+    }
+
+    .btn-create{
+        border: 0.5px solid #499cd6;
+        border-radius: 1.5px;
+        padding: 6px 6px;
+        font-size: 7.5px;
+    }
+
+    .terms {
+        margin: 14px auto;
+        font-size: 6.2px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
 
     header {
-        font-size: 8px;
+        font-size: 7.6px;
     }
 
     .top-menu {
@@ -349,11 +669,123 @@ header {
     }
 
     .flag {
-        padding-left: 7px;
-        margin-right: 6px;
+        padding-left: 6.8px;
+        margin-right: 5.6px;
     }
 
+    .trans-border {
+        border-left: 0.5px solid transparent;
+        border-bottom: 0.5px solid transparent;
+        border-right: 0.5px solid transparent;
+    }
 
+    .top-menu span:hover {
+        border-left: 0.5px solid #57a2dd;
+        border-bottom: 0.5px solid #57a2dd;
+        border-right: 0.5px solid #57a2dd;
+    }
+
+    .top-menu .ofertas:hover {
+        border-left: 0.5px solid #57a2dd;
+        border-bottom: 0.5px solid #57a2dd;
+        border-right: 0.5px solid #57a2dd;
+    }
+
+    .blue-line {
+        margin-top: 1px;
+        margin-bottom: 1.5px;
+        width: 1px;
+    }
+
+    .cadastre-se {
+        line-height: 35px;
+        font-size: 13.2px;
+        border-bottom: 1px solid #cad0c2;
+    }
+
+    .facebook {
+        outline: 1px solid transparent;
+
+        border-bottom-left-radius: 2px;
+        border-top-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-top-right-radius: 2px;
+
+        border: 0.5px solid transparent;
+        border-top: 0.5px solid #7c89b6;
+        margin: 15px auto 11.3px;
+        font-size: 8.4px;
+    }
+
+    .logo {
+        border-right: 0.5px solid #1d3c73;
+        padding: 3.2px 7.3px 2px 1px;
+    }
+
+    .btn-facebook {
+        border-left: 0.5px solid #4b68ac;
+        padding: 3.5px 4px 3.5px 10px;
+    }
+
+    .quotes {
+        padding-left: 5px;
+    }
+
+    .double-line {
+        border-top: 0.6px solid #666;
+        border-bottom: 0.6px solid #000;
+        width: 22.5%;
+    }
+
+    .separator span {
+        margin: 0 0.8px;
+        font-size: 7px;
+    }
+
+    .input-info > input::placeholder {
+        font-size: 6.5px;
+    }
+
+    .input-info > input{
+        border: 0.5px solid transparent;
+    }
+
+    .input-info input {
+        padding: 0 7.1px 2px;
+        margin: 4px;
+    }
+
+    .input-info > input:focus {
+        border-bottom: 0.5px solid #689bcc;
+    }
+
+    .input-info {
+        margin: 4px auto;
+    }
+
+    .registration {
+        margin-top: 2px;
+    }
+
+    .checkbox {
+        margin: 6px 0;
+    }
+
+    .checkbox-text {
+        font-size: 7.2px;
+    }
+
+    .btn-create{
+        border: 0.5px solid #499cd6;
+        border-radius: 1.5px;
+        padding: 5px 5px;
+        font-size: 6.6px;
+    }
+
+    .terms {
+        margin: 12px auto;
+        font-size: 5.5px;
+    }
 }
 
 
@@ -368,13 +800,8 @@ header {
     flex-direction: row;
     text-align: center;
     justify-content: flex-end;
-
     margin-right: 2%;
-
-
     color: #60b5ed;
-
-
 }
 
 .top-menu a {
@@ -404,9 +831,6 @@ header {
 }
 
 .blue-line {
-    margin-top: 2px;
-    margin-bottom: 3px;
-    width: 2px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -426,18 +850,9 @@ header {
     width: 16%;
 }
 
-.trans-border {
-    border-left: 1px solid transparent;
-    border-bottom: 1px solid transparent;
-    border-right: 1px solid transparent;
-}
-
-
 .top-menu span:hover {
     cursor: pointer;
-    border-left: 1px solid #57a2dd;
-    border-bottom: 1px solid #57a2dd;
-    border-right: 1px solid #57a2dd;
+
 
     background: #51b0dc;
     background: -moz-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
@@ -454,10 +869,6 @@ header {
 }
 
 .top-menu .ofertas:hover {
-    border-left: 1px solid #57a2dd;
-    border-bottom: 1px solid #57a2dd;
-    border-right: 1px solid #57a2dd;
-
     background: #51b0dc;
     background: -moz-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
     background: -webkit-linear-gradient(top, #51b0dc 0%, #2e7ac4 100%);
@@ -478,7 +889,7 @@ header {
 
 
     font-family: "Helvetica Neue Medium", Tahoma, sans-serif;
-    font-size: 14px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -521,15 +932,6 @@ header {
 
     width: 53%;
 
-
-    outline: 1px solid transparent;
-    border: 1px solid transparent;
-    border-top: 1px solid #7c89b6;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-
     background: #3c5697;
     background: -moz-linear-gradient(top, #3c5697 0%, #2e4377 100%);
     background: -webkit-linear-gradient(top, #3c5697 0%, #2e4377 100%);
@@ -555,7 +957,6 @@ header {
 
     content: url("../img/facebook-logo.png");
     width: 4.2%;
-    border-right: 1px solid #1d3c73;
 }
 
 .btn-facebook {
@@ -565,7 +966,7 @@ header {
     color: #f7ffff;
     font-weight: bold;
 
-    border-left: 1px solid #4b68ac;
+
 }
 
 .btn-facebook span {
@@ -593,15 +994,12 @@ header {
     text-align: center;
     display: inline-block;
     vertical-align: middle;
-    margin: 0 5px;
     color: #999999;
 }
 
 .double-line {
     display: inline-block;
     vertical-align: middle;
-    border-top: 1px solid #666;
-    border-bottom: 1px solid #000;
 }
 
 .registration {
@@ -622,7 +1020,6 @@ header {
 
 
 .input-info > input {
-    border: 1px solid transparent;
 
     background: #0e0e0e;
     background: -moz-linear-gradient(top, #0e0e0e 0%, #121212 100%);
@@ -640,7 +1037,6 @@ header {
     color: #fffcfc;
     background: #1b5288;
     outline: none;
-    border-bottom: 1px solid #689bcc;
     box-shadow: 0 0 20px 5px rgba(47, 123, 197, 0.77),
     inset 0 0 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -659,7 +1055,6 @@ header {
 /*------------------*/
 
 .checkbox {
-    margin: 10px 0;
     display: flex;
 }
 
@@ -691,9 +1086,6 @@ header {
 .btn-create {
     display: flex;
     margin: 0 auto;
-    border: 1px solid #499cd6;
-    border-radius: 2px;
-
 
     font-weight: bold;
     color: #fff;
@@ -713,7 +1105,6 @@ header {
     justify-content: center;
     text-align: center;
     width: 60%;
-
     color: #ccc;
 }
 
